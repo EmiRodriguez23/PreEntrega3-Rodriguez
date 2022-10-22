@@ -1,0 +1,80 @@
+ /* Global */
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/arg.png) ;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+ 
+.marca{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: gold;
+}
+
+#logomessi{
+    width: 25px;
+    height: 25px;
+}
+
+/* Navbar */
+.navbar-collapse{
+  display: inline-block;
+  font-size: 17px;
+  padding: 5px 0; 
+  margin-top: 10px;  
+  margin-bottom: 0px;
+}
+
+.navbar-brand{    
+    padding: 5px 0;   
+    margin-bottom: 0px;
+    margin-left: 1380px; 
+}
+
+.navbar-collapse ul li a:hover{
+    opacity: .5;
+}
+
+
+/* Social */
+.social {  
+  display: block;
+  width: 100%;
+}
+
+.social p {
+  color: grey;
+  text-align: center;
+  font-size: 30px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 30px;
+}
+
+.links a i {
+  color: black;
+  font-size: 2rem;
+}
+
+.links a i:hover{
+  opacity: .3;
+}
+
+/* Footer */
+.footer {
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1rem;
+}
