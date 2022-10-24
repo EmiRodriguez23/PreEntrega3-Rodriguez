@@ -1,0 +1,21 @@
+{
+  "name": "preentrega3-rodriguez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path css styles/index.css scss/index.scss ",
+    "build-css": "node-sass --include-path css styles/ballondor.css scss/ballondor.scss ",
+    "build-css": "node-sass --include-path css styles/goldenboots.css scss/goldenboots.scss ",
+    "build-css": "node-sass --include-path css styles/titles.css scss/titles.scss ",
+    "build-css": "node-sass --include-path css styles/goals.css scss/goals.scss ",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
